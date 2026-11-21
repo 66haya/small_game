@@ -39,10 +39,10 @@
 
 (text-colour:red)[前方预警！！！]
 
-(after: 3s, 0)[
+(after: 2s, 0)[
   (set: $scare to true)
   &lt;img src=&quot;ghost_face.png&quot; style=&quot;position:fixed;top:0;left:0;width:100vw;height:100vh;object-fit:cover;z-index:999;&quot;&gt;
-  (after: 4s, 0)[
+  (after: 5s, 0)[
     (hide: ?scare)
     (after: 0.3s, 0)[(go-to: &quot;结局2&quot;)]
   ]
